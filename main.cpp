@@ -9,16 +9,14 @@ int main()
     cin >> n;
     
     // TODO: outer loop for each row
-for (int row = 0; row <= n; row++) {
-    
+for (int row = 1; row <= n; row++) {
     // TODO: inner loop to print letters for this row
     for (int col = 0; col < row; col++) {
-
         // TODO: print the letter for this column
         cout << char('A' + col) << " ";
     }
         // TODO: print newline after each row
-            cout << endl;
+        cout << endl;
     }
     return 0;
 }
